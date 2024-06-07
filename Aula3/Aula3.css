@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    background-color: #FFCDEA;
+}
+/* Boxes */
+.general-title-box{
+    margin: 20px;
+    border: 5px solid white;
+    padding: 20px;
+    width: 90%;
+
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+    background-color: #BC7FCD;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    max-width: 900px;
+}
+
+.content-box{
+    margin: 20px;
+    border: 5px solid white;
+    padding: 20px;
+    width: 80%;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+
+    background-color: #FB9AD1;
+    border-radius: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poetry-photo-box{
+    width: 80%;
+
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    align-content:center;
+    max-width: 800px;
+}
+
+.poetry-box{
+    margin: auto;
+    border: 2px solid white;
+    padding: 10px;
+    width: 300px;
+
+    display:flex;
+
+    background-color: #BC7FCD;
+    border-radius: 30px;
+}
+
+.photo-box{ /* Its useless, for now... */
+    margin: unset;
+    border: unset;
+    padding: unset;
+    width: unset;
+    height: unset;
+
+    display:flex;
+    flex-direction: unset;
+    justify-content: unset;
+    align-items:unset;
+    align-content:unset;
+    flex-wrap: unset;
+}
+
+/* Other */
+.title{
+    color: white;
+    font-size: 50px;
+    font-style: oblique;
+    margin: auto;
+}
+
+.poetry{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.photo{
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 30px;
+    max-width: 250px;
+}
+
+.photo2{
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin: 15px;
+    max-width: 500px;
+}
+
+.minor-title{
+    color: #86469C;
+    font-size: 35px;
+    font-style: oblique;
+    margin: auto;
+    margin-bottom: 10px;
+}

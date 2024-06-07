@@ -1,0 +1,130 @@
+body{
+    background-image: url("../Fotos/james_web.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.calculator{
+    background-color: black;
+    width: 50vh;
+    height: 100%;
+    margin:auto;
+
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    grid: repeat(8, 1fr) / repeat(4, 1fr);
+}
+
+.blanck{
+    grid-area: 1 / 1 / 4 / 5;
+    height: 45vh;
+    width: 50vh;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.result{
+    color: white;
+    font-size: 12vh;
+    margin: 3vh;
+}
+
+.operations{
+    background-color: orange;
+    border-radius: 100%;
+    height: 11vh;
+    width: 11vh;
+    margin: 0.2vh;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    color: white;
+    font-size: 6vh;
+    font-family: 'Courier New', Courier, monospace;
+
+    border: none;
+}
+
+.divide{grid-area: 4 / 4 / 5 / 5;}
+.multiply{grid-area: 5 / 4 / 6 / 5;}
+.subtract{grid-area: 6 / 4 / 7 / 5;}
+.sum{grid-area: 7 / 4 / 8 / 5;}
+.equals{grid-area: 8 / 4 / 9 / 5;}
+
+.special{
+    background-color: gray;
+    border-radius: 100%;
+    height: 11vh;
+    width: 11vh;
+    margin: 0.2vh;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    color: black;
+    font-size: 6vh;
+    font-family: 'Courier New', Courier, monospace;
+
+    border: none;
+}
+
+.reset{grid-area: 4 / 1 / 5 / 2;}
+.signal{grid-area: 4 / 2 / 5 / 3;}
+.percentage{grid-area: 4 / 3 / 5 / 4;}
+
+.number{
+    background-color: #333333;
+    border-radius: 100%;
+    height: 11vh;
+    width: 11vh;
+    margin: 0.2vh;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    color: white;
+    font-size: 6vh;
+    font-family: 'Courier New', Courier, monospace;
+
+    border: none;
+}
+
+.num0{
+    grid-area: 8 / 1 / 9 / 3;
+    width: 23vh;
+    border-radius: 11vh;
+    font-family: unset;
+    padding-left: 4vh;
+
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center;
+    align-items: center;
+}
+
+.num1{grid-area: 7 / 1 / 8 / 2;}
+.num2{grid-area: 7 / 2 / 8 / 3;}
+.num3{grid-area: 7 / 3 / 8 / 4;}
+.num4{grid-area: 6 / 1 / 7 / 2;}
+.num5{grid-area: 6 / 2 / 7 / 3;}
+.num6{grid-area: 6 / 3 / 7 / 4;}
+.num7{grid-area: 5 / 1 / 6 / 2;}
+.num8{grid-area: 5 / 2 / 6 / 3;}
+.num9{grid-area: 5 / 3 / 6 / 4;}
+.comma{grid-area: 8 / 3 / 9 / 4;}
