@@ -9,7 +9,7 @@
         <div class = 'bloco titulo'>
             <p>Aula 7</p>
         </div>
-
+        
         <div class = 'bloco exercicio'>
             <p class = "subtitulo">Volume do Cilindro</p>
 
@@ -31,10 +31,49 @@
 
         <div class = 'bloco exercicio'>
             <p class = "subtitulo">Exercício 2</p>
+
+            <div class = "dois">
+                <form id = form_dois>
+                    <label for="cor">Escolha uma cor maneira (em inglês)</label>
+                    <input type="text" id="cor_inp" name="cor">
+                    
+                    <input type="submit" value="Pintar" class= "done">
+                </form>
+
+                <p id = "resultado2" class = "glow_text">Flip Flops</p>
+            </div>
         </div>
 
         <div class = 'bloco exercicio'>
             <p class = "subtitulo">Exercício 3</p>
+
+            <div class = "tres">
+                <form id = form_tres class = "form3">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome">
+    
+                    <label for="idade">Idade (Anos)</label>
+                    <input type="text" id="idade" name="idade">
+
+                    <label for="peso">Peso (Kg)</label>
+                    <input type="text" id="peso" name="peso">
+                    
+                    <input type="submit" value="Adicionar pessoa" class = "done">
+                </form>
+            
+                <table id="complete_table">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Idade</th>
+                            <th>Peso</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
         </div>
 
     </body>
