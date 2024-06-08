@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+input {
+    margin-top: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 7em;
+    margin: 20px 0 20px 0;
+}
+
+#glow {
+    color: hsl(180, 100%, 50%);
+    font-family: 'Monoton', cursive;
+    transform: perspective(500px) rotateY(0deg);
+    transition: transform 0.3s;
+    text-shadow: 
+        0 0 10px white, 
+        0 0 70px hsl(180, 100%, 50%), 
+        0 0 80px hsl(180, 100%, 50%), 
+        0 0 100px hsl(180, 100%, 50%), 
+        0 0 150px hsl(180, 100%, 50%);
+}
